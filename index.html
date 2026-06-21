@@ -1,51 +1,164 @@
-<header>
-  <img src="./logo.png" alt="Vengeful Realms Logo" class="logo">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+  <link rel="icon" type="image/png" href="./favicon.png">
+
+  <title>Vengeful Realms Staff Hub</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Georgia, serif;
+      color: #f5f0df;
+      line-height: 1.7;
+      background:
+        linear-gradient(rgba(9, 3, 2, 0.75), rgba(9, 3, 2, 0.90)),
+        url("./background2.png?v=2");
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+    }
+
+    header {
+      background: linear-gradient(135deg, #460F0F, #090302);
+      padding: 45px 20px;
+      text-align: center;
+      border-bottom: 3px solid #D7C796;
+    }
+
+    .logo {
+      width: 180px;
+      height: auto;
+      display: block;
+      margin: 0 auto 15px auto;
+    }
+
+    header h1 {
+      color: #D7C796;
+      margin: 0;
+      font-size: 38px;
+      letter-spacing: 1px;
+    }
+
+    header p {
+      color: #C5B171;
+      margin-top: 10px;
+      font-size: 18px;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: auto;
+      padding: 30px 20px;
+    }
+
+    section {
+      background: rgba(9, 3, 2, 0.78);
+      border: 1px solid #8F7634;
+      border-radius: 10px;
+      padding: 22px;
+      margin-bottom: 25px;
+    }
+
+    .notice {
+      border: 2px solid #D7C796;
+      background: rgba(215, 199, 150, 0.08);
+    }
+
+    h2 {
+      color: #D7C796;
+      border-bottom: 1px solid #8F7634;
+      padding-bottom: 8px;
+      margin-top: 0;
+    }
+
+    h3 {
+      color: #D7C796;
+      margin-top: 0;
+    }
+
+    .staff-card {
+      background: rgba(70, 15, 15, 0.45);
+      border: 1px solid #8F7634;
+      border-radius: 8px;
+      padding: 18px;
+      margin-bottom: 15px;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 16px;
+      background: rgba(215, 199, 150, 0.12);
+      border: 1px solid #D7C796;
+      color: #D7C796;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+
+    .button:hover {
+      background: rgba(215, 199, 150, 0.25);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #AF9B5D;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <img src="./Vengefullogo.png" alt="Vengeful Realms Logo" class="logo">
   <h1>Vengeful Realms</h1>
   <p>Official Staff Hub</p>
 </header>
 
+<main>
+
 <section class="notice">
-  <h2>Vengeful Realms Staff Hub</h2>
+  <h2>Staff Hub</h2>
   <p>
-    This hub provides quick access to official Vengeful Realms staff documents and department pages.
+    This hub provides quick access to official Vengeful Realms staff documents, department pages, and internal references.
   </p>
 </section>
 
 <section>
-  <h2>Staff Documents</h2>
+  <h2>Official Staff Pages</h2>
 
   <div class="staff-card">
     <h3>Whisperers Code & Conduct</h3>
-    <p>Rules and conduct expectations for Report Staff.</p>
-    <a href="https://mrvexer.github.io/vengeful-realms-rules/" target="_blank">Open Report Staff Handbook</a>
+    <p>Rules, expectations, and conduct standards for Report Staff.</p>
+    <a class="button" href="https://mrvexer.github.io/vengeful-realms-rules/" target="_blank">Open Report Staff Handbook</a>
   </div>
 
   <div class="staff-card">
     <h3>Staff Roster</h3>
-    <p>Current Vengeful Realms staff roster by department.</p>
-    <a href="https://mrvexer.github.io/Staff-Roster/" target="_blank">Open Staff Roster</a>
+    <p>Current Vengeful Realms staff roster sorted by department.</p>
+    <a class="button" href="https://mrvexer.github.io/Staff-Roster/" target="_blank">Open Staff Roster</a>
   </div>
 
   <div class="staff-card">
     <h3>Story Team Code & Conduct</h3>
-    <p>Expectations and standards for the Story Team.</p>
-    <a href="https://mrvexer.github.io/GamemasterRules/" target="_blank">Open Story Team Handbook</a>
+    <p>Standards, responsibilities, and expectations for Story Team members.</p>
+    <a class="button" href="https://mrvexer.github.io/GamemasterRules/" target="_blank">Open Story Team Handbook</a>
   </div>
+
 </section>
 
-a {
-  display: inline-block;
-  margin-top: 10px;
-  padding: 10px 16px;
-  background: rgba(215, 199, 150, 0.12);
-  border: 1px solid #D7C796;
-  color: #D7C796;
-  text-decoration: none;
-  border-radius: 6px;
-  font-weight: bold;
-}
+</main>
 
-a:hover {
-  background: rgba(215, 199, 150, 0.25);
-}
+<footer>
+  Vengeful Realms Staff Hub
+</footer>
+
+</body>
+</html>
